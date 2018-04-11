@@ -38,7 +38,7 @@ class NavBar extends React.Component {
           </div>
 
           <div id="forecast-success" className="alert alert-success fade">
-            <strong>Yay!</strong> Forecast loaded successfully!
+            <strong>Forecast loaded successfully!</strong>
           </div>
         </div>
       </div>
