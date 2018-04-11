@@ -1,0 +1,62 @@
+.forecast-index-item
+{
+  background-color: currentColor;
+  min-height: 321px;
+}
+
+.index-item-grid-wrapper
+{
+  padding-left: 7.5px !important;
+  padding-right: 7.5px !important;
+}
+
+.weather-icon-wrapper
+{
+  background: currentColor;
+  border-radius: 10%;
+}
+
+.weather-info-wrapper
+{
+  text-align: center;
+}
+
+@media only screen and (min-width: 992px)
+{
+  .index-item-grid-wrapper.col-md-offset-1
+  {
+    margin-left: 3.5% !important;
+  }
+
+  .index-item-grid-wrapper.col-md-2
+  {
+    width: 18% !important;
+  }
+}
+
+@media only screen and (max-width: 992px)
+{
+  .forecast-index-item
+  {
+    min-height: 0;
+  }
+
+  .index-item-grid-wrapper.col-sm-6
+  {
+    width: 48% !important;
+  }
+}
+
+@media only screen and (max-width: 768px)
+{
+  .index-item-grid-wrapper
+  {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .index-item-grid-wrapper.col-xs-12
+  {
+    width: 100% !important;
+  }
+}

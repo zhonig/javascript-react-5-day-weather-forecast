@@ -1,0 +1,38 @@
+#footer-wrapper
+{
+  min-height: 100%;
+}
+
+#footer
+{
+  margin-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.copyright
+{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.media-icons-list
+{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 768px)
+{
+  .copyright
+  {
+    text-align: center;
+  }
+
+  .media-icons-list
+  {
+    text-align: center;
+  }
+}
