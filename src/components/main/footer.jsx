@@ -21,11 +21,11 @@ class Footer extends React.Component {
 
           <ul className={ iconListClass }>
 
-            <li><a href="https://www.linkedin.com/in/zhonig">
+            <li><a href="https://www.linkedin.com/in/zackhonig" target="_blank">
               <img className="social-media-icon img-circle" src="/images/icons/linkedin.png"/>
             </a></li>
 
-            <li><a href="https://github.com/zhonig/javascript-react-5-day-weather-forecast">
+            <li><a href="https://github.com/zhonig/javascript-react-5-day-weather-forecast" target="_blank">
               <img className="social-media-icon img-circle" src="/images/icons/github.png"/>
             </a></li>
 
